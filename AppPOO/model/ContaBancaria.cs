@@ -19,10 +19,10 @@
                 titular = value;
             }
         }
-        private decimal Saldo
+        public decimal Saldo
         {
             get { return saldo; }
-            set { saldo = value; }
+            private set { saldo = value; }
         }
 
         //construtor

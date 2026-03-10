@@ -16,6 +16,7 @@ try
     ContaBancaria conta = new ContaBancaria(nome, saldo);
     conta.ExibirSaldo();
     //conta.Saldo = -500; //forçar alteração
+    //Console.WriteLine(conta.Saldo)  //ler o saldo 
     string resposta;
     do
     {
